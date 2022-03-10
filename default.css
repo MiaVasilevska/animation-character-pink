@@ -1,0 +1,145 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.kirby {
+  width: 500px;
+  height: 450px;
+  background: #ff9ec8;
+  position: absolute;
+  border-radius: 50%;
+  border: 15px solid black;
+}
+
+.left_arm {
+  width: 150px;
+  height: 160px;
+  background: #ff9ec8;
+  position: relative;
+  top: 200px;
+  border-radius: 250px 300px;
+  border: 15px solid black;
+  right: 50px;
+}
+
+.right_arm {
+  width: 150px;
+  height: 160px;
+  background: #ff9ec8;
+  position: relative;
+  border-radius: 250px 300px;
+  border: 15px solid black;
+  left: 375px;
+  z-index: -1;
+}
+
+.left_leg {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background: #f20079;
+  border-radius: 50% 60% 70% 40% / 80% 60% 50% 30%;
+  left: 1%;
+  bottom: -6.5%;
+  border: 15px solid black;
+  z-index: -1;
+}
+.right_leg {
+  position: absolute;
+  width: 40%;
+  height: 18%;
+  background: #f20079;
+  border-radius: 60% 60% 50% 70%/ 70% 80% 30% 50%;
+  right: -2%;
+  bottom: -4%;
+  border: 15px solid black;
+  z-index: -1;
+}
+
+.mouth {
+  position: absolute;
+  top: 260px;
+  left: 280px;
+  width: 40px;
+  height: 30px;
+  color: #000;
+  border: 10px solid transparent;
+  border-top-color: black;
+  border-radius: 200px;
+}
+.left_eye {
+  position: absolute;
+  background: black;
+  width: 50px;
+  height: 125px;
+  border-radius: 50%;
+  top: 100px;
+  left: 220px;
+  transform: rotate(350deg);
+}
+.right_eye {
+  position: absolute;
+  background: black;
+  width: 50px;
+  height: 125px;
+  border-radius: 50%;
+  top: 90px;
+  left: 320px;
+  transform: rotate(350deg);
+}
+.black {
+  width: 32px;
+  height: 110px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: px;
+  right: 10px;
+}
+.blue {
+  position: absolute;
+  width: 33px;
+  height: 110px;
+  background: #0164c7;
+  border-radius: 50%;
+  top: 10px;
+  left: 8px;
+  z-index: -1;
+}
+.white {
+  position: absolute;
+  width: 30px;
+  height: 100px;
+  background: white;
+  border-radius: 50%;
+  bottom: 30px;
+  left: 8px;
+  z-index: 0;
+}
+
+.right_brow {
+  width: 70px;
+  height: 13px;
+  background: black;
+  position: absolute;
+  border-radius: 30%;
+  z-index: 9;
+  transform: rotate(30deg);
+  top: 97px;
+  left: 200px;
+}
+
+.left_brow{
+    width: 70px;
+    height: 13px;
+    background: black;
+    position: absolute;
+    border-radius: 30%;
+    z-index: 9;
+    transform: rotate(330deg);
+    top: 85px;
+    left: 300px;
+}
