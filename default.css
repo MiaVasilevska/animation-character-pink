@@ -162,3 +162,12 @@ body {
   left: 380px;
   transform: rotate(350deg);
 }
+.shadow {
+  width: 500px;
+  height: 70px;
+  background: #cb91b2;
+  position: relative;
+  z-index: -5;
+  border-radius: 50%;
+  top: 55px;
+}
