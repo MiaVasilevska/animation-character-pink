@@ -132,14 +132,33 @@ body {
   left: 200px;
 }
 
-.left_brow{
-    width: 70px;
-    height: 13px;
-    background: black;
-    position: absolute;
-    border-radius: 30%;
-    z-index: 9;
-    transform: rotate(330deg);
-    top: 85px;
-    left: 300px;
+.left_brow {
+  width: 70px;
+  height: 13px;
+  background: black;
+  position: absolute;
+  border-radius: 30%;
+  z-index: 9;
+  transform: rotate(330deg);
+  top: 85px;
+  left: 300px;
+}
+.left_cheek {
+  width: 60px;
+  height: 30px;
+  background: #e95f9b;
+  position: absolute;
+  border-radius: 50%;
+  top: 250px;
+  left: 170px;
+}
+.right_cheek {
+  width: 60px;
+  height: 30px;
+  background: #e95f9b;
+  position: absolute;
+  border-radius: 50%;
+  top: 230px;
+  left: 380px;
+  transform: rotate(350deg);
 }
